@@ -1,6 +1,8 @@
+streamlit
 langchain
 langchain-community
-langchain-huggingface
+openai
+tiktoken
+langchain_huggingface
 sentence-transformers
-torch
-streamlit
+faiss-cpu
