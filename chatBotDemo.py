@@ -33,7 +33,7 @@ db = load_vectorstore()
 query = st.text_input("Enter your question about C++")
 
 if query:
-    docs = db.similarity_search(query, k=1)
+    docs = db.similarity_search(query, k=3)
     st.subheader("Retrieved Context")
     for i, doc in enumerate(docs):
         st.markdown("**Result{i+1}:**")
